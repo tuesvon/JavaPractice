@@ -1,6 +1,6 @@
 package chaptertwo;
 
-public class ch2p11 {
+class Twothreetwelve {
         public static void main(String[] args) {
             int a = 2021;
             double b = 3.1415;

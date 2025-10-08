@@ -1,8 +1,8 @@
-package chapterthree;
+package chaptertwo;
 
 import java.util.Scanner;
 
-class Threeparteight {
+class Twofoureight {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String x = sc.nextLine();
