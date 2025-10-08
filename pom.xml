@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>WebUi</groupId>
+    <artifactId>autotests-ui</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <java.version>21</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <aspectj.version>1.9.22.1</aspectj.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <slf4j.version>2.0.0-alpha1</slf4j.version>
+        <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
+        <cucumber.version>7.20.1</cucumber.version>
+        <junit.version>5.11.4</junit.version>
+        <junit-platform-suite.version>1.11.4</junit-platform-suite.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <allure.version>2.29.1</allure.version>
+        <allure-maven.version>2.12.0</allure-maven.version>
+        <selenide.version>7.6.0</selenide.version>
+        <webdrivermanager.version>5.9.2</webdrivermanager.version>
+        <classgraph.version>4.8.179</classgraph.version>
+        <maven-surefire-plugin.version>3.5.0</maven-surefire-plugin.version>
+        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+        <lombok.version>1.18.36</lombok.version>
+        <jsr305.version>3.0.2</jsr305.version>
+        <commons-text.version>1.13.0</commons-text.version>
+        <selenium-shutterbug.version>1.6</selenium-shutterbug.version>
+        <logback-classic.version>1.5.15</logback-classic.version>
+        <log4j-api.version>3.0.0-beta2</log4j-api.version>
+        <log4j-core.version>3.0.0-beta2</log4j-core.version>
+        <rest-assured.version>5.5.0</rest-assured.version>
+        <postgresql.version>42.7.4</postgresql.version>
+        <hibernate-core.version>6.6.4.Final</hibernate-core.version>
+        <jakarta.persistence-api.version>3.2.0</jakarta.persistence-api.version>
+        <arangodb.version>7.15.0</arangodb.version>
+        <json.version>20240303</json.version>
+        <javax.mail.version>1.6.2</javax.mail.version>
+        <apache.poi-scratchpad.version>5.3.0</apache.poi-scratchpad.version>
+    </properties>
+
+     <dependencies>
+         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+         <dependency>
+             <groupId>org.testng</groupId>
+             <artifactId>testng</artifactId>
+             <version>7.11.0</version>
+             <scope>test</scope>
+         </dependency>
+
+         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+         <dependency>
+             <groupId>io.rest-assured</groupId>
+             <artifactId>rest-assured</artifactId>
+             <version>5.5.1</version>
+             <scope>test</scope>
+         </dependency>
+     </dependencies>
+</project>
