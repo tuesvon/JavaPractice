@@ -1,4 +1,4 @@
-package chapter2;
+package chaptertwo;
 
 class Chnine {
     public static void main(String[] args) {
