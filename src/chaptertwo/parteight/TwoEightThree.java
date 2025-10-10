@@ -1,4 +1,9 @@
 package chaptertwo.parteight;
 
-public class TwoEightThree {
+class TwoEightThree {
+    public static void main(String[] args) {
+        String name;
+        name = "Максим";
+        System.out.print(name);
+    }
 }
