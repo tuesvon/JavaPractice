@@ -1,15 +1,13 @@
-package chapterthree;
+package chapterthree.partone;
 
 import java.util.Scanner;
 
-class ThreeOneFive {
+class ThreeOneFour {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String a = sc.nextLine();
-        String b = sc.nextLine();
-        int x = a.length();
-        int y = b.length();
-        if (x > y) {
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        if (a > b) {
             System.out.println("Махатма");
         } else {
             System.out.println("Джавахарлал");
