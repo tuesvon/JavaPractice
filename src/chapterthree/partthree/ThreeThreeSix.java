@@ -8,12 +8,24 @@ class ThreeThreeSix {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        boolean x = (a % 2 == 0) || (b % 2 == 0) || (c % 2 == 0);
+        boolean m = (a % 2 == 0) || (b % 2 == 0) || (c % 2 == 0);
 
-        if (x == false) {
+        if (m == false) {
             System.out.print("Чётных чисел нет");
+        } else if (a % 2 == 0 && b % 2 == 0 && c % 2 == 0) {
+            System.out.print(Math.max(Math.max(a, b), c));
+        } else if (a % 2 == 0 && b % 2 == 0) {
+            System.out.print(Math.max(a, b));
+        } else if (a % 2 == 0 && c % 2 == 0) {
+            System.out.print(Math.max(a, c));
+        } else if (b % 2 == 0 && c % 2 == 0) {
+            System.out.print(Math.max(b, c));
+        } else if (a % 2 == 0) {
+            System.out.print(a);
+        } else if (b % 2 == 0) {
+            System.out.print(b);
         } else {
-
+            System.out.print(c);
         }
     }
 }
